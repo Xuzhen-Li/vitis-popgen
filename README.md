@@ -6,7 +6,7 @@ This repo is for *Vitis* population structure, gene flow, and domestication anal
 
 This is not the 167K analysis product. FASTQ to panel VCF to ancestry reports live in [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry).
 This is not theory notes. One paper, one folder stays in [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining).
-This is not chip design. That line is [grapeancestry/chip](https://github.com/Xuzhen-Li/grapeancestry/tree/main/chip) (placeholder).
+This is not chip design. That line is [grapeancestry/chip](https://github.com/Xuzhen-Li/grapeancestry) (placeholder).
 
 - Not a capture-panel calling suite
 - Not a classic-paper mining repo
