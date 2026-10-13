@@ -1,16 +1,12 @@
 # vitis-popgen
 
-This repo is for *Vitis* population structure, gene flow, and domestication analyses that use public or published data.
+English | [中文](README.zh.md)
+
+[[TODO-TEXT]] <!-- T1: opening line -->
 
 ## This is not
 
-This is not the 167K analysis product. FASTQ to panel VCF to ancestry reports live in [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry).
-This is not theory notes. One paper, one folder stays in [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining).
-This is not chip design. That line is [grapevine-chip](https://github.com/Xuzhen-Li/grapevine-chip).
-
-- Not a capture-panel calling suite
-- Not a classic-paper mining repo
-- Not a place for unpublished genotype matrices
+[[TODO-TEXT]] <!-- T2: single "This is not" list -->
 
 ## What will land later
 
