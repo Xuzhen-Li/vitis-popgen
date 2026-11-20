@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="936" height="472" viewBox="0 0 936 472">
+  <rect width="936" height="472" fill="#ffffff"/>
+  <text x="28" y="32" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#1f2a33">Quoted Vitis panel sizes and claims (opened sources only)</text>
+  <rect x="28" y="48" width="880" height="28" fill="#e8eef2"/>
+<text x="40" y="67" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#1f2a33">Paper</text>
+<text x="230" y="67" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#1f2a33">Quoted sample size</text>
+<text x="470" y="67" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#1f2a33">Quoted claim (see chapter tables for sources)</text>
+<rect x="28" y="76" width="880" height="36" fill="#ffffff" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="99" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Zhou et al. 2017</text>
+<text x="230" y="99" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">9 wild vs 18 cultivated (14 cultivars)</text>
+<text x="470" y="99" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">~22 kya MSMC cross-coalescence (Fig. 2B); n=4 is vinifera Ne (Fig. 2A); SMC++ ~30 kya</text>
+<rect x="28" y="112" width="880" height="36" fill="#f7f4ee" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="135" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Liang et al. 2019</text>
+<text x="230" y="135" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">472 accessions; 48 of 60 species</text>
+<text x="470" y="135" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">recent Ne expansion and contraction in domesticated vines</text>
+<rect x="28" y="148" width="880" height="36" fill="#ffffff" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="171" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Magris et al. 2021</text>
+<text x="230" y="171" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">204 V. vinifera genomes</text>
+<text x="470" y="171" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">one Western Asian domestication, then European wild introgression</text>
+<rect x="28" y="184" width="880" height="36" fill="#f7f4ee" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="207" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Freitas et al. 2021</text>
+<text x="230" y="207" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">n not extracted from opened full text</text>
+<text x="470" y="207" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">local wild hybridization (strongest in Iberian varieties)</text>
+<rect x="28" y="220" width="880" height="36" fill="#ffffff" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="243" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Dong et al. 2023</text>
+<text x="230" y="243" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">3,525 cultivated and wild</text>
+<text x="470" y="243" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">two domestications ~11,000 ya in W. Asia and Caucasus (not 1-to-1)</text>
+<rect x="28" y="256" width="880" height="36" fill="#f7f4ee" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="279" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Xiao et al. 2023</text>
+<text x="230" y="279" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">345 samples (abstract); 328 after curation (correction)</text>
+<text x="470" y="279" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">single domestication; introgression especially into wine grapes</text>
+<rect x="28" y="292" width="880" height="36" fill="#ffffff" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="315" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Liu et al. 2024</text>
+<text x="230" y="315" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">18 new T2T + 11 published; 466 resequenced cultivars</text>
+<text x="470" y="315" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Grapepan v.1.0; 236,449 SVs; 88.6% of SVs overlapped TEs</text>
+<rect x="28" y="328" width="880" height="36" fill="#f7f4ee" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="351" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Guo et al. 2025</text>
+<text x="230" y="351" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">72 haplotype-resolved genomes (25 wild, 47 cult.)</text>
+<text x="470" y="351" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">over 63 SVs associated with downy mildew resistance</text>
+<rect x="28" y="364" width="880" height="36" fill="#ffffff" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="387" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Wang et al. 2026 (NA Vitis)</text>
+<text x="230" y="387" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">639 accessions; 48 species</text>
+<text x="470" y="387" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">introgression ~14% of the average Vitis genome</text>
+<rect x="28" y="400" width="880" height="36" fill="#f7f4ee" stroke="#d5dde3" stroke-width="0.8"/>
+<text x="40" y="423" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#1f2a33">Nikoghosyan et al. 2026</text>
+<text x="230" y="423" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="12" fill="#2b3a45">164 accessions (re-analysis)</text>
+<text x="470" y="423" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">wild vs cultivated split; three cultivated components</text>
+  <text x="28" y="456" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="10" fill="#5a6570">Original table-style schematic. Numbers and claims are copied from abstracts or full texts opened 2026-11-15 CST. This is not a reanalysis.</text>
+</svg>
