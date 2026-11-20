@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="936" height="460" viewBox="0 0 936 460">
+  <rect width="936" height="460" fill="#ffffff"/>
+  <text x="28" y="32" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#1f2a33">vitis-popgen: method map for 2026-11-15 additions</text>
+  <rect x="28" y="52" width="280" height="118" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="38" y="74" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">ARG methods</text>
+<text x="38" y="94" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">tsinfer, Relate, tsdate (Wohns 2022;</text>
+<text x="38" y="110" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Pope 2026 if default algorithm),</text>
+<text x="38" y="126" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">SINGER, tskit. No grape ARG here.</text>
+<text x="38" y="142" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Map, μ and g [待确认].</text>
+<rect x="328" y="52" width="280" height="118" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="338" y="74" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">IBD at cohort scale</text>
+<text x="338" y="94" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">hap-IBD (phased data + cM map),</text>
+<text x="338" y="110" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">RaPID2, RZooRoH 2026 update.</text>
+<text x="338" y="126" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Clone-merge first; not IBD-Ne.</text>
+<text x="338" y="142" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Not run on Vitis here.</text>
+<rect x="628" y="52" width="280" height="118" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="638" y="74" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">Local ancestry</text>
+<text x="638" y="94" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">FLARE (abstract + README only),</text>
+<text x="638" y="110" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">MOSAIC, fineSTRUCTURE.</text>
+<text x="638" y="126" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Local ancestry on a Vitis graph</text>
+<text x="638" y="142" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">was not opened; [待确认].</text>
+<rect x="28" y="190" width="280" height="118" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="38" y="212" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">Spatial surfaces</text>
+<text x="38" y="232" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">FEEMS paper (wolves); EEMS only</text>
+<text x="38" y="248" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">as described there.</text>
+<text x="38" y="264" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Trade-route / clonal cultivars:</text>
+<text x="38" y="280" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">appropriateness [待确认].</text>
+<rect x="328" y="190" width="280" height="118" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="338" y="212" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">Graph / SV popgen</text>
+<text x="338" y="232" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">PanGenie and Giraffe papers.</text>
+<text x="338" y="248" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Liu 2024 Grapepan v.1.0:</text>
+<text x="338" y="264" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">9,105,787 short; 236,449 SVs.</text>
+<text x="338" y="280" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Guo 2025: 72 haplotype-resolved genomes.</text>
+<rect x="628" y="190" width="280" height="118" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="638" y="212" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">PGS and load</text>
+<text x="638" y="232" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Human PGS portability cautions.</text>
+<text x="638" y="248" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Grape load: Zhou 2017, +5.2%</text>
+<text x="638" y="264" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">(9 wild vs 18 cultivated ind.).</text>
+<text x="638" y="280" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Arabidopsis/Ulmus are not grape.</text>
+<rect x="178" y="328" width="580" height="100" rx="8" fill="#f7f4ee" stroke="#3d4f5f" stroke-width="1.4"/>
+<text x="188" y="350" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#1f2a33">Vitis studies (claims kept side by side)</text>
+<text x="188" y="370" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Dong 2023: two domestications ~11,000 ya (abstract; no 1-to-1 table/wine map).</text>
+<text x="188" y="386" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Magris 2021: one Western Asian domestication + later introgression.</text>
+<text x="188" y="402" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="11.5" fill="#2b3a45">Xiao 2023: single domestication (not claimed as Western Asia here).</text>
+  <text x="28" y="444" font-family="Source Sans 3, DejaVu Sans, sans-serif" font-size="10" fill="#5a6570">Original schematic for Xuzhen-Li/vitis-popgen. Boxes cite papers opened 2026-11-15 CST; not a pipeline we ran.</text>
+</svg>
