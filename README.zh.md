@@ -11,7 +11,7 @@
 ## 本仓库不包含
 
 - 167K 从 FASTQ 到祖源的产品：[grapeancestry](https://github.com/Xuzhen-Li/grapeancestry)
-- 理论笔记（一篇论文，一个文件夹）：[genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining)
+- 理论笔记（一篇论文，一个文件夹）：[genomics-theory-book](https://github.com/Xuzhen-Li/genomics-theory-book)
 - 芯片设计：[grapevine-chip](https://github.com/Xuzhen-Li/grapevine-chip)
 - 泛基因组图构建和完整的图工具列表：[vitis-pangenome](https://github.com/Xuzhen-Li/vitis-pangenome)
 - 古DNA从湿实验到鉴定：[grapevine-adna](https://github.com/Xuzhen-Li/grapevine-adna)（与本目录若干节的重叠是预期之中的）

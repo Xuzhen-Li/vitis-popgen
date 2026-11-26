@@ -11,7 +11,7 @@ It contains no unpublished genotypes, private coordinates, or sample-level matri
 ## Out of scope
 
 - The 167K FASTQ-to-ancestry product: [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry)
-- Theory notes (one paper, one folder): [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining)
+- Theory notes (one paper, one folder): [genomics-theory-book](https://github.com/Xuzhen-Li/genomics-theory-book)
 - Chip design: [grapevine-chip](https://github.com/Xuzhen-Li/grapevine-chip)
 - Pangenome graph construction and the long graph-tool list: [vitis-pangenome](https://github.com/Xuzhen-Li/vitis-pangenome)
 - Ancient DNA wet lab through authentication: [grapevine-adna](https://github.com/Xuzhen-Li/grapevine-adna) (overlap with several sections here is expected)
