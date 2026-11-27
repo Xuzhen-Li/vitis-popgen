@@ -220,7 +220,7 @@ ARG、SMC、SFS 和近期有效种群大小（Ne）估算。克隆和重复样�
 - **Relate**（工具）— 面向数千样本的全基因组谱系估计，也可供选择检验使用。 输入：phased haplotypes, genetic map。输出：genealogies, coalescence rates。版本：[待确认]（No public tag resolved in this check (MyersGroup/relate returned 404)）。 [doi:10.1038/s41588-019-0484-x](https://doi.org/10.1038/s41588-019-0484-x) · [link](https://myersgroup.github.io/relate/)  
   注：An alternative to the tsinfer-then-tsdate pair, not to tsinfer alone. Version and some setup details [待确认]. Sample time for a cultivar should be its sexual origin.
 - **SINGER**（工具）— 带后验抽样的 ARG 推断，作为 tsinfer 加 tsdate 的备选。 输入：phased haplotypes。输出：sampled ARGs。版本：0.1.8-beta（GitHub popgenmethods/SINGER, 2026-11-14 CST (also AM14)）。 [link](https://github.com/popgenmethods/SINGER)  
-  注：An alternative to the tsinfer-then-tsdate pair. The listed version string includes beta and is used only because no later stable tag was confirmed in the v1 check [待确认] (whether a later stable tag exists). Sample time for a cultivar should be its sexual origin.
+  注：可替代 tsinfer 加 tsdate 组合。所列版本号含 beta，仅因未确认到更新的稳定版本 [待确认]（是否存在更新的稳定标签）。栽培品种的采样时间应取其有性起源时间。
 - **tsdate**（工具）— 为 tsinfer 得到的树序列定年。 输入：tree sequence。输出：dated tree sequence。版本：0.2.7（PyPI tsdate, 2026-11-14 CST (also AM14)）。 [link](https://github.com/tskit-dev/tsdate)  
   注：Dates a tree sequence produced by tsinfer; it is the second step of that pair, not an alternative to tsinfer. Sample times should be sexual-origin dates for clonal cultivars.
 - **tsinfer**（工具）— 从已定相的大样本推断树序列（ARG 的近似）。 输入：phased genotypes。输出：tree sequence。版本：0.5.1（conda-forge tsinfer, 2026-11-14 CST (also AM14)）。 [doi:10.1038/s41588-019-0483-y](https://doi.org/10.1038/s41588-019-0483-y) · [link](https://github.com/tskit-dev/tsinfer)  
@@ -518,7 +518,7 @@ f 统计量、混合图和杂交检验，与 TreeMix 和局部祖源分析互为
 - *End-to-end workflows (alternatives)*：AM03–AM26 analysis modules, nf-core/sarek。
 
 - **AM03–AM26 analysis modules**（流程）— 项目级模块，覆盖检测、身份、多样性、ROH、祖源、定相、GWAS 和古DNA。 输入：public data listed in that repository。输出：analysis notes。版本：vitis-open-directions v3_2, 2026-11-14（Local catalog in vitis-open-directions, not a GitHub release of this repo）。 [link](https://github.com/Xuzhen-Li/vitis-open-directions)  
-  注：The public repository may not be online yet. Content used here is the v3_2 bundle already reviewed on 2026-11-14. grapeancestry remains the 167K product and is not replaced by this catalogue.
+  注：公开仓库可能尚未上线；此处引用 v3_2、日期为 2026-11-14 的快照内容。grapeancestry 仍为 167K 从 FASTQ 到祖源的产品，不由本目录替代。
 - **nf-core/sarek**（流程）— 社区 Nextflow 流程，用于种系短读变异检测。不是葡萄专用。 输入：FASTQ, reference。输出：VCF, QC。版本：[待确认]（Not version-checked in this build; listed as a well-known modern WGS workflow）。 [link](https://nf-co.re/sarek)  
   注：Version [待确认]. The AM03 sketch (bwa-mem2 + DeepVariant or GATK) is the project default if you do not use sarek.
 
@@ -579,7 +579,7 @@ f 统计量、混合图和杂交检验，与 TreeMix 和局部祖源分析互为
   注：两步规则（克隆与一级亲缘）见 docs/WORKFLOW.zh.md。
 - **Graph-aware introgression and inversion scans**（想法）— 把渗入和倒位分析从线性 VCF 转到泛基因组图上。 输入：graph, cohort genotypes。输出：tracts, local PCA。版本：n/a（vitis-open-directions projects 15 and 17; vitis-pangenome）。 [link](https://github.com/Xuzhen-Li/vitis-pangenome)  
   注：Details belong in vitis-pangenome; this repo only points to them.
-- **Sex-determining region genotype as sample annotation (idea)**（想法）— 给样本注释葡萄性别决定区基因型（M、F、H），可用来推断野生样本的性别。葡萄没有异形性染色体，该位点是 2 号染色体上的一小段，栽培品种大多是两性花。见 vitis-open-directions 22 号。 输入：aligned reads or VCF around the SDR。输出：sample-level M/F/H annotation。版本：n/a（genetics review, 2026-11-14 CST）。 [link](https://github.com/Xuzhen-Li/vitis-open-directions)  
+- **Sex-determining region genotype as sample annotation (idea)**（想法）— 给样本注释葡萄性别决定区基因型（M、F、H），可用来推断野生样本的性别。葡萄没有异形性染色体，该位点是 2 号染色体上的一小段，栽培品种大多是两性花。见 vitis-open-directions 22 号。输入：SDR 区域的比对读段或 VCF。输出：样本级 M/F/H 注释。版本：n/a（2026-11-14 CST 核对）。[link](https://github.com/Xuzhen-Li/vitis-open-directions)  
   注：Pointer only; this repository does not invent a new caller.
 
 <a id="section-17"></a>

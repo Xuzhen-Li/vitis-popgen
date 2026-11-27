@@ -25,7 +25,7 @@ The simulator writes 40 samples across three populations and 1,200 SNPs (seed 7)
 | `05_run_admixture.sh` | Document ADMIXTURE; then use [qbar](https://github.com/Xuzhen-Li/qbar) and evalAdmix | No. `--dry-run` exits 2, with or without PREFIX OUTDIR. |
 | `05b_qbar_align.sh` | Document Q-file alignment with qbar | No, `--dry-run` exits 2 |
 | `06_roh.py` | Consecutive homozygous runs; not plink `--homozyg` | Yes (on the filtered VCF) |
-| `07_diversity_windows.py` | Windowed diversity; per-base pi only with `--accessible-bed`; numerator is variants inside the bed; coordinates are 0-based half-open; `--min-variant-sites` (default 5) is an explicit toy gate that can bias pi upward (statistics review [待确认]) | Yes. The toy driver uses the post-dedup, pre-MAF VCF. Per-base pi must not use a MAF-filtered VCF. Production still uses pixy on an all-sites VCF. |
+| `07_diversity_windows.py` | Windowed diversity; per-base pi only with `--accessible-bed`; numerator is variants inside the bed; coordinates are 0-based half-open; `--min-variant-sites` (default 5) is an explicit toy gate that can bias pi upward ([待确认]) | Yes. The toy driver uses the post-dedup, pre-MAF VCF. Per-base pi must not use a MAF-filtered VCF. Production still uses pixy on an all-sites VCF. |
 | `08_selection_scan.py` | Fst z-score outliers as candidates, not evidence of selection | Yes |
 | `09_fstats.py` | Allele-frequency f2, f3 and f4; biased, no jackknife; not ADMIXTOOLS2 | Yes (f4 is empty with only three populations) |
 | `10_demography_prep.py` | Writes a demo table; not valid MSMC input | Yes |
