@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Document how to pass ADMIXTURE Q files to Jason's qbar repository.
-# Untested on this box (qbar is not installed here).
+# Document how to pass ADMIXTURE Q files to the qbar repository.
+# Untested here (qbar is not installed in this environment).
 # Repo: https://github.com/Xuzhen-Li/qbar
 
 set -Ceu

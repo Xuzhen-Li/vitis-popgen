@@ -52,7 +52,7 @@ When --accessible-bed is given:
     the window from the bed. It is NOT reduced by per-population missing
     genotypes. That can bias pi_per_callable_site downward, in the
     direction described by Korunes and Samuk 2021 (pixy,
-    doi:10.1111/1755-0998.13326; full text opened in v5,
+    doi:10.1111/1755-0998.13326; full text opened,
     PMC8044049, NCBI efetch XML 92,442 bytes, 2026-11-15 CST): treating
     missing genotypes as invariant
     biases pi downward). A per-population, per-site callable count (as
@@ -92,10 +92,10 @@ Hudson Fst uses the same site set for the within and between terms
 (sites with at least two called individuals in both populations) and a
 ratio of means on that shared set. Citations for the method names:
 Hudson, Slatkin and Maddison 1992 (doi:10.1093/genetics/132.2.583;
-abstract opened in v4; body [待确认]); Bhatia et al. 2013
-(doi:10.1101/gr.154831.113; full text opened in v5,
+abstract opened; body [待确认]); Bhatia et al. 2013
+(doi:10.1101/gr.154831.113; full text opened,
 PMC3759727); Tajima 1989
-(doi:10.1093/genetics/123.3.585; abstract opened in v4;
+(doi:10.1093/genetics/123.3.585; abstract opened;
 body [待确认]). The opened Hudson abstract compares
 FST and a cladistic migration estimator and does not restate the
 window formula used here; that formula match remains [待确认]

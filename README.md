@@ -220,7 +220,7 @@ ARG, SMC, SFS, and recent-Ne methods. Reduce clones and duplicates to one sample
 - **Relate** (tool) — Genome-wide genealogy estimation for thousands of samples; also feeds selection tests. Input: phased haplotypes, genetic map. Output: genealogies, coalescence rates. Version: [待确认] (No public tag resolved in this check (MyersGroup/relate returned 404)). [doi:10.1038/s41588-019-0484-x](https://doi.org/10.1038/s41588-019-0484-x) · [link](https://myersgroup.github.io/relate/)  
   Note: An alternative to the tsinfer-then-tsdate pair, not to tsinfer alone. Version and some setup details [待确认]. Sample time for a cultivar should be its sexual origin.
 - **SINGER** (tool) — ARG inference with posterior sampling, an alternative to tsinfer plus tsdate. Input: phased haplotypes. Output: sampled ARGs. Version: 0.1.8-beta (GitHub popgenmethods/SINGER, 2026-11-14 CST (also AM14)). [link](https://github.com/popgenmethods/SINGER)  
-  Note: An alternative to the tsinfer-then-tsdate pair. The listed version string includes beta and is used only because no later stable tag was confirmed in the v1 check [待确认] (whether a later stable tag exists). Sample time for a cultivar should be its sexual origin.
+  Note: An alternative to the tsinfer-then-tsdate pair. The listed version string includes beta and is used only because no later stable tag was confirmed [待确认] (whether a later stable tag exists). Sample time for a cultivar should be its sexual origin.
 - **tsdate** (tool) — Dates a tsinfer tree sequence. Input: tree sequence. Output: dated tree sequence. Version: 0.2.7 (PyPI tsdate, 2026-11-14 CST (also AM14)). [link](https://github.com/tskit-dev/tsdate)  
   Note: Dates a tree sequence produced by tsinfer; it is the second step of that pair, not an alternative to tsinfer. Sample times should be sexual-origin dates for clonal cultivars.
 - **tsinfer** (tool) — Infers a tree sequence (ARG approximation) from phased large samples. Input: phased genotypes. Output: tree sequence. Version: 0.5.1 (conda-forge tsinfer, 2026-11-14 CST (also AM14)). [doi:10.1038/s41588-019-0483-y](https://doi.org/10.1038/s41588-019-0483-y) · [link](https://github.com/tskit-dev/tsinfer)  
@@ -518,7 +518,7 @@ End-to-end workflows. The default analysis outline in this project remains the A
 - *End-to-end workflows (alternatives)*: AM03–AM26 analysis modules, nf-core/sarek.
 
 - **AM03–AM26 analysis modules** (workflow) — Project-level modules for calling, identity, diversity, ROH, ancestry, phasing, GWAS and aDNA. Input: public data listed in that repository. Output: analysis notes. Version: vitis-open-directions v3_2, 2026-11-14 (Local catalog in vitis-open-directions, not a GitHub release of this repo). [link](https://github.com/Xuzhen-Li/vitis-open-directions)  
-  Note: The public repository may not be online yet. Content used here is the v3_2 bundle already reviewed on 2026-11-14. grapeancestry remains the 167K product and is not replaced by this catalogue.
+  Note: The public repository may not be online yet. Content used here is the v3_2 snapshot dated 2026-11-14. grapeancestry remains the 167K product and is not replaced by this catalogue.
 - **nf-core/sarek** (workflow) — Community Nextflow workflow for germline short-read variant calling. Not grape-specific. Input: FASTQ, reference. Output: VCF, QC. Version: [待确认] (Not version-checked in this build; listed as a well-known modern WGS workflow). [link](https://nf-co.re/sarek)  
   Note: Version [待确认]. The AM03 sketch (bwa-mem2 + DeepVariant or GATK) is the project default if you do not use sarek.
 
@@ -579,7 +579,7 @@ Intended recipes, not results. No claim is made that these workflows have been r
   Note: See docs/WORKFLOW.md for the two-step clone versus first-degree rule.
 - **Graph-aware introgression and inversion scans** (idea) — Move introgression and inversion work from linear VCFs onto the pangenome graph. Input: graph, cohort genotypes. Output: tracts, local PCA. Version: n/a (vitis-open-directions projects 15 and 17; vitis-pangenome). [link](https://github.com/Xuzhen-Li/vitis-pangenome)  
   Note: Details belong in vitis-pangenome; this repo only points to them.
-- **Sex-determining region genotype as sample annotation (idea)** (idea) — Annotate samples for the grape sex-determining region genotypes (M, F, H). This can infer sex in wild samples. Grape has no heteromorphic sex chromosomes; the locus is a small region on chromosome 2, and most cultivars are hermaphroditic. See vitis-open-directions item 22. Input: aligned reads or VCF around the SDR. Output: sample-level M/F/H annotation. Version: n/a (genetics review, 2026-11-14 CST). [link](https://github.com/Xuzhen-Li/vitis-open-directions)  
+- **Sex-determining region genotype as sample annotation (idea)** (idea) — Annotate samples for the grape sex-determining region genotypes (M, F, H). This can infer sex in wild samples. Grape has no heteromorphic sex chromosomes; the locus is a small region on chromosome 2, and most cultivars are hermaphroditic. See vitis-open-directions item 22. Input: aligned reads or VCF around the SDR. Output: sample-level M/F/H annotation. Version: n/a (checked 2026-11-14 CST). [link](https://github.com/Xuzhen-Li/vitis-open-directions)  
   Note: Pointer only; this repository does not invent a new caller.
 
 <a id="section-17"></a>
