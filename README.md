@@ -42,7 +42,7 @@ It contains no unpublished genotypes, private coordinates, or sample-level matri
 16. [Ideas still lightly tested on Vitis](#section-16) (4)
 17. [Parentage, pedigree and name identity](#section-17) (4)
 
-This page lists 183 entries (147 tools; the rest are workflows, protocols, papers, resources or ideas). The table form is [`ADDITIONS.tsv`](ADDITIONS.tsv) and [`catalog/CATALOG.tsv`](catalog/CATALOG.tsv).
+This page lists 183 entries (147 tools; the rest are workflows, protocols, papers, resources or ideas). The table form is [`catalog/CATALOG.tsv`](catalog/CATALOG.tsv).
 
 <a id="section-1"></a>
 ## 1. Variant calling and QC
