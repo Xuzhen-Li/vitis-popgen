@@ -42,7 +42,7 @@
 16. [在葡萄上仍少有充分测试的想法](#section-16) (4)
 17. [亲本鉴定、系谱与名称核对](#section-17) (4)
 
-本页共 183 条（其中工具 147 条；其余为流程、方案、文献、资源或想法）。表格形式见 [`ADDITIONS.tsv`](ADDITIONS.tsv) 和 [`catalog/CATALOG.tsv`](catalog/CATALOG.tsv)。
+本页共 183 条（其中工具 147 条；其余为流程、方案、文献、资源或想法）。表格形式见 [`catalog/CATALOG.tsv`](catalog/CATALOG.tsv)。
 
 <a id="section-1"></a>
 ## 1. 变异检测与质量控制

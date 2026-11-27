@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
 """Windowed pi, Tajima's D (per population) and pairwise Fst (Hudson).
 
-Version v1_10 (2026-11-15, R1–R2). This file is a new
-script. It does not overwrite 07_diversity_windows.py,
-07_diversity_windows_v1_7.py, 07_diversity_windows_v1_8.py, or
-07_diversity_windows_v1_9.py (sha256
-584b0ad8571ee9d4164e1f2bf3b5089376c94c2f3d0cec64f7338960fec0d4d1).
-The earlier edit of v1_9.py (prior sha256 ecefe85fbeb29cee… →
-584b0ad8571ee9d4…) was docstring-only; that in-place sha change is
-recorded in CHANGELOG and the build-side log. Further docstring wording
-belongs in this new filename.
+Version v1_10 (2026-11-15). This file is a new
+script. It does not overwrite 07_diversity_windows.py.
+Earlier intermediate copies of this script have been removed
+from the tree. Further docstring wording belongs in this filename.
 
 Inputs:  --vcf --pops --window-bp (default 50000, toy) --step-bp (default 25000, toy)
          optional --accessible-bed (chrom, 0-based start, end; half-open)
@@ -56,7 +51,7 @@ When --accessible-bed is given:
     PMC8044049, NCBI efetch XML 92,442 bytes, 2026-11-15 CST): treating
     missing genotypes as invariant
     biases pi downward). A per-population, per-site callable count (as
-    in pixy) is the production alternative. v1_9 output is for
+    in pixy) is the production alternative. This script's output is for
     description or toy checks, not a formal grape result.
   * Cross-window summaries of pi_per_callable_site must be weighted by
     callable bases: (sum of pi_per_callable_site * n_callable_sites)
@@ -101,7 +96,7 @@ FST and a cladistic migration estimator and does not restate the
 window formula used here; that formula match remains [待确认]
 against the paper body.
 
-TEST_SUMMARY addition for v1_9: a no-bed run must leave
+TEST_SUMMARY addition: a no-bed run must leave
 n_callable_sites and pi_per_callable_site as NA and still write
 mean_pi_per_variant_site. Toy inputs and the numeric result of that
 counterexample are recorded in the build-side log after the script is run
